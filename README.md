@@ -1,6 +1,3 @@
-Certainly! Below is a template for the root README file that explains the structure and content of your repository:
-
----
 
 # Leadway Frontend Training Experience
 
