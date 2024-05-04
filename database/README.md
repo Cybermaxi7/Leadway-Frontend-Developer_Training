@@ -1,6 +1,3 @@
-Certainly! Below is a README file template for the "database" folder, explaining the SQL operations covered and the databases included:
-
----
 
 # Databases and SQL Operations
 
