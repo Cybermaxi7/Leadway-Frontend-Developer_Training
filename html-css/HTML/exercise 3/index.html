@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- EXERCISE
+
+ Create a feedback form with the following requirements: 
+
+1- Username
+2- Password
+3- Email
+4- Month
+5- Time
+6- Drop down
+7- Text area
+8- File
+9- Radio button (male female)
+10-Submit
+
+Note: Give a heading to your form -->
+
+        <h1>Feedback Form</h1>
+        <form action="#">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" />
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password" />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+            </div>
+            
+            <div>
+                <label for="month">Month</label>
+                <input type="month" name="month" id="month" />
+            </div>
+            <div>
+                <label for="time">Current Time</label>
+                <input type="time" name="time" id="time" />
+            </div>
+             <div>
+                <label for="category">Select Category</label>
+                <select name="category" id="category">
+                    <option value="IT">IT</option>
+                    <option value="Tech">Technical</option>
+                    <option value="HR">HR</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Eng">Engineering</option>
+                    
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments"></textarea>
+            </div>
+
+            <div>
+                <label for="file">Upload file</label>
+                <input type="file" name="file" id="file">
+            </div>
+            <div>
+                <label for="gender">Upload file</label>
+                <input type="radio" name="gender" id="male">
+                <input type="radio" name="gender" id="female">
+            </div>
+
+            <div>
+                <input type="submit" name="submit" id="submit">
+            </div>
+
+        </form>
+    </body>
+</html>
