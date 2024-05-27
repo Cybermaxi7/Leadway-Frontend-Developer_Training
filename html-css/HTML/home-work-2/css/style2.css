@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    width: 100%;
+    min-height: 100%;
+}
+.container {
+    width: 100%;
+    padding: 5rem 3rem;
+}
+img {
+    width: 10rem;
+    object-fit: contain;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.head-1 {
+background-color: rgb(54, 54, 199);
+color: #fff;
+font-weight: bold;
+}
+.head-2 {
+background-color: rgb(51, 202, 51);
+font-weight: bold;
+
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #111;
+}
+
+

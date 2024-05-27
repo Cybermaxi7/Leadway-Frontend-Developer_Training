@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="top">
+                <img src="./images/KAEDC.png" alt="Kaduna Electric Photo" />
+                <h1>Kaduna</h1>
+                <h1>Electric</h1>
+            </div>
+            <form action="#">
+                <div>
+                    <h2>Meter Type</h2>
+                    <div class="row">
+                        <div class="radio">
+                            <input type="radio" name="meter-type" id="prepaid" />
+                            <label for="prepaid">prepaid</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="meter-type" id="postpaid" />
+                            <label for="postpaid">postpaid</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="meter-number">Meter Number</label>
+                    <input
+                        type="number"
+                        name="meter-number"
+                        id="meter-number"
+                    />
+                </div>
+                <div>
+                    <label for="amount">Amount</label>
+                    <input type="number" name="amount" id="amount" />
+                </div>
+                <div>
+                    <label for="mobile">Mobile Number</label>
+                    <input type="number" name="mobile" id="mobile" />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

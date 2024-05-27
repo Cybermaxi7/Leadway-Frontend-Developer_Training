@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="text-align: center;">
+        <h1>CALCULATOR PROJECT</h1>
+        <form action="" name="form">
+            <div class="calc" >
+                <input type="text" id="answer" name="screen"> <br>
+                <input type="button" value="7" onclick="form.screen.value+='7'">
+                <input type="button" value="8" onclick="form.screen.value+='8'">
+                <input type="button" value="9" onclick="form.screen.value+='9'">
+                <input type="button" value="." onclick="form.screen.value+='.'">
+                <input type="button" value="C" onclick="form.screen.value=''"> <br>
+
+                <input type="button" value="4" onclick="form.screen.value+='4'">
+                <input type="button" value="5" onclick="form.screen.value+='5'">
+                <input type="button" value="6" onclick="form.screen.value+='6'">
+                <input type="button" value="+" onclick="form.screen.value+='+'">
+                <input type="button" value="-" onclick="form.screen.value+='-'"> <br>
+
+                <input type="button" value="3" onclick="form.screen.value+='3'">
+                <input type="button" value="2" onclick="form.screen.value+='2'">
+                <input type="button" value="1" onclick="form.screen.value+='1'">
+                <input type="button" value="*" onclick="form.screen.value+='*'">
+                <input type="button" value="/" onclick="form.screen.value+='/'"> <br>
+
+                <input type="button" value="0" onclick="form.screen.value+='7'">
+                <input type="button" value="00" onclick="form.screen.value+='00'">
+                <input type="button" value="000" onclick="form.screen.value+='000'">
+                <input type="button" value="%" onclick="form.screen.value+='%'" >
+                <input type="button" value="=" onclick="form.screen.value=eval(form.screen.value)">
+
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
