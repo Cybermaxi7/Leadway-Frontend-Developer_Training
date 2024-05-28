@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="order.css" />
+        <title>Order - Cyberfoods</title>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Cyber<span>Foods</span></div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about/about.html">About</a></li>
+                <li><a href="/video/video.html">Videos</a></li>
+                <li><a href="/order/order.html">Order</a></li>
+                <li><a href="/food/food.html">Food Table</a></li>
+                <li><a href="/images/image.html">Image Gallery</a></li>
+            </ul>
+        </nav>
+        
+        <h2>Easy Ordering Process</h2>
+
+        <p>
+            User-friendly interface to browse menus, customize your order, and
+            check out in just a few clicks. Save your favorite orders for quick
+            reordering.
+        </p>
+        <main>
+            <form action="#" name="order">
+                <fieldset>
+                    <legend>Your Order Details</legend>
+                    <div class="form-group">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="menu">Choose Menu</label>
+                        <select id="menu" name="menu" required>
+                            <option value="Rice">Rice</option>
+                            <option value="ewa">Ewa</option>
+                            <option value="Yam">Yam</option>
+                            <option value="Pasta">Pasta</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" cols="1" rows="4" placeholder="Your address" required></textarea>
+                    </div>
+                    <div class="form-group confirm-order">
+                        <input type="checkbox" id="confirm" name="confirm" required>
+                        <label for="confirm">Confirm order.</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Order">
+                    </div>
+                    <div class="form-group">
+                        <span class="thank-you">Thanks for your patronage!</span>
+                    </div>
+                </fieldset>
+            </form>
+            <h3>Fast, Reliable Delivery and Secure Payment System</h3>
+            <ul>
+                <li>Track your order in real-time from the kitchen to your doorstep.</li>
+                <li>Enjoy contactless delivery for your safety and convenience.</li>
+                <li>Multiple payment methods including credit cards, digital wallets, and cash on delivery.</li>
+                <li>Your data is protected with industry-leading security measures.</li>
+            </ul>
+        </main>
+    </body>
+</html>

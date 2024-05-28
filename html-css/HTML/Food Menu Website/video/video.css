@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    min-height: 100dvh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+        url(/images/food.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    max-width: 100rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.logo span {
+    color: rgb(255, 115, 0);
+    font-weight: 600;
+    text-decoration: underline;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+li a:hover {
+    color: rgb(255, 115, 0);
+}
+
+main {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.video-gallery h2 {
+    font-size: 2rem;
+    margin-block: 4rem;
+    color: rgb(255, 115, 0);
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.grid-item iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.grid-item p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+footer p {
+    font-size: 1rem;
+    color: #777;
+}

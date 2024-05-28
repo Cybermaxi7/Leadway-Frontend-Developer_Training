@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    min-height: 100dvh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+        url(/images/food.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    max-width: 100rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.logo span {
+    color: rgb(255, 115, 0);
+    font-weight: 600;
+    text-decoration: underline;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+li a:hover {
+    color: rgb(255, 115, 0);
+}
+
+
+main {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(255, 115, 0);
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+thead {
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+    font-size: 1.6rem;
+}
+th, td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 1.5rem;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: #111;
+}
+tfoot {
+    font-weight: bold;
+}

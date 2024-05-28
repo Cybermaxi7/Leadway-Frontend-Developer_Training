@@ -1,0 +1,167 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    min-height: 100dvh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+        url(./images/food.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+nav {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    max-width: 100rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.logo span {
+    color: rgb(255, 115, 0);
+    font-weight: 600;
+    text-decoration: underline;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+li a:hover {
+    color: rgb(255, 115, 0);
+}
+main {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h2 span {
+    background-color: rgb(255, 115, 0);
+    padding-inline: 5px;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+}
+.row {
+    display: flex;
+    gap: 6rem;
+
+}
+
+.row .p {
+    width: 50%;
+    font-size: 1.7rem;
+    line-height: 1.8;
+    position: relative;
+    padding-top: 3rem;
+    }
+
+.row .p::before {
+    content: "";
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 115, 0);
+}
+
+.row p::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 115, 0);
+}
+
+.right h3 span {
+    color: rgb(255, 115, 0);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.right h3 {
+    font-size: 1.9rem;
+    
+}
+.right p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+/* }
+a, a:active{
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 3px;
+
+}
+.top>li{
+    list-style: none;
+}
+.top>ul{
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navicon{
+    width: 50px;
+    height: 50px;
+}
+.headimg{
+    width: 100%;
+    height: 15rem;
+}
+.headimg > img {
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2;
+}
+ */
