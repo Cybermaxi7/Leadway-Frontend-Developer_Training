@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- TASK ONE -->
+        <!-- main heading -->
+        <!-- <h1>First Web Page</h1>
+        <p>
+            Kindly do exactly what you see here as it would affect your score
+            <br />
+            Whether it is your first webpage in life or not, use the heading
+            above it won't bite..
+        </p>
+        <h2>H2 Heading</h2>
+        <p>
+            As a best practice, your webpage should have just one </p>
+            <p>element</p>
+        </p>
+        <h3>h3 Heading</h3>
+        This test is too simple to fail. <br />
+        It is simple a test of how much you have been following the course.
+        <br />
+        <br />
+        Thanks.. Wait... <br />
+        You will have to upload this project to github... Yea
+
+        <h4>H4 Heading</h4>
+        <p>Use ther file structure that will be shown here below</p>
+        <!-- file structure -->
+        <!-- <pre>
+
+            <code>
+:::first_webpage:::
+    |
+    |------ :::index.html:::
+    | 
+    |------ :::style.css:::
+    | 
+    |------ :::script.js:::
+            </code>
+                </pre>  -->
+
+        <!-- TASK TWO -->
+        <!-- 1st Solution -->
+        <font face="Arial">
+        <form action="#">
+            <!-- name box -->
+            <div>
+                <label for="name">NAME</label>
+                <input type="text" name="name" id="name" />
+            </div>
+            <!-- mobile number box   -->
+            <div>
+                <label for="mobile">Mobile Number</label>
+                <input type="text" name="mobile" id="mobile" />
+            </div>
+            <!-- city box -->
+            <div>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" />
+            </div>
+            <!-- address box -->
+            <div>
+                <label for="address">Address</label>
+                <textarea
+                    type="text"
+                    name="address"
+                    id="address"
+                    cols="20"
+                    placeholder="e.g Kampala Apartment Plot4 Johnson Room 24b"
+
+                    rows="3"
+                ></textarea>
+            </div>
+        </form>
+        <!-- second solution -->
+        <br><br><br>
+        
+                <form action="#">
+                    <table>
+                        <tr>
+                            <td>NAME</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input
+                                    type="text"
+                                    placeholder="e.g John Doe"
+                                    size="50"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Number Phone</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input
+                                    type="text"
+                                    placeholder="+234 Enter mobile number"
+                                    size="50"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input
+                                    type="text"
+                                    placeholder="e.g kampala"
+                                    size="50"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea
+                                    name="address"
+                                    id=""
+                                    cols="44"
+                                    rows="6"
+                                    placeholder="e.g Kampala Apartment Plot4 Johnson Room 24b"
+                                ></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                
+                <!-- 3rd Task --> <br><br><br><br>
+                
+                <form action="">
+                <table align="center" cellpadding="7">
+                  <tr>
+                    <td colspan="2" align="center">
+                      Let us know how we can improve freeCodeCamp
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="name">*Name: </label></td>
+                    <td><input type="text" placeholder="Enter your name" size="40" /></td>
+                </tr>
+                  <tr>
+                    <td align="right"><label for="email">*Email: </label></td>
+                    <td>
+                        <input type="text" placeholder="Enter your Email" size="40" />
+                    </td>
+                  </tr>
+                  <tr>
+                      <td align="right"><label for="name">*Age: </label></td>
+                    <td><input type="text" placeholder="Age" size="40" /></td>
+                  </tr>
+                  <tr>
+                    <td align="right">Which option best describes your current role?</td>
+                    <td>
+                      <select name="" id="">
+                          <option value="student">Student</option>
+                          <option value="student">Professional</option>
+                        </select>
+                    </td>
+                </tr>
+                  <tr>
+                    <td align="right">
+                        *How likely is that you would recommend freeCodeCamp to a freind?:
+                    </td>
+                    <td>
+                        <input type="radio" name="opt" />Definitely <br />
+                        <input type="radio" name="opt" />Maybe <br />
+                        <input type="radio" name="opt" />Not sure
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">What do you like most in FCC:</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="student">Select an option</option>
+                            <option value="student">Option1</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">Which option best describes your current role?</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="student">Student</option>
+                            <option value="student">Professional</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                        <td align="right">
+                          Things that should be improved in the future <br> (Check all that apply):
+                        </td>
+                        <td>
+                            <input type="checkbox" name="opt" />Definitely <br />
+                            <input type="checkbox" name="opt" />Maybe <br />
+                            <input type="checkbox" name="opt" />Not sure
+                        </td>
+                      </tr>
+                </table>
+              </form>
+            </font>
+            </body>
+        </html>
+    </body>
+</html>
